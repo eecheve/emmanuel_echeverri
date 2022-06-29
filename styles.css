@@ -1,0 +1,167 @@
+/*
+COLOR PALETTE
+#1F2041 - (31,32,65) - Dark purple
+#4B3F72 - (75,63,114) - Light Purple
+#FFC857 - Gold Yellow
+#119DA4 - Light Blue
+#19647E - Dark Blue
+*/
+
+/* Global Styles
+-------------------------------------*/
+body{
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img{
+    width: 300px;
+}
+
+h1{
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+h2{
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'Source Serif Pro', serif;
+}
+
+em{
+    color: #FFC857;
+}
+
+.content_wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+h3{
+    margin-bottom: 0;
+}
+h3 + p{
+    font-style: italic;
+}
+h3 ~ p{
+    margin: 0;
+}
+
+/* Profile
+-------------------------------------*/
+header{
+    background: #1F2041;
+    color: #F7FFF7;
+}
+header p{
+    margin: 0;
+}
+
+.profile{
+    font-style: italic; 
+ }
+
+/* Featured Projects
+-------------------------------------*/
+.featured_projects{
+    background: #4B3F72;
+    color: #F7FFF7;
+}
+
+.featured_projects .btn{
+    background: #1F2041;
+    color: #F7FFF7;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.featured_projects .btn:hover{
+    background: rgba(31, 32, 65, 80%);
+}
+.featured_projects p{
+    margin: 0;
+}
+
+.project_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px dashed #F7FFF7;
+}
+
+.project_item h3{
+    margin-top: 0;
+}
+
+/* Work Experience
+-------------------------------------*/
+.work_experience{
+    background: #FFC857;
+}
+.work_experience p{
+    margin: 0;
+}
+.job_item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* Education
+-------------------------------------*/
+.education{
+    background: #EAFDF8;
+}
+
+.education p{
+    margin: 0;
+}
+
+.school_item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 10px;
+}
+
+/* Contact Info
+-------------------------------------*/
+footer{
+    background: #19647E;
+    color: #F7FFF7;
+}
+footer .btn{
+    background: #31119b;
+    color: #F7FFF7;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+footer .btn:hover{
+    background: rgba(49, 17, 155, 80%);
+}
+
+/* Links
+--------------------------------------*/
+a:link{
+    color: #FFECC6;
+}
+
+a:hover{
+    color: #FFAE77;
+}
+
+a:visited{
+    color: #E7BE6E;
+}
+
+.contact{
+    /*list-style-type: none;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
