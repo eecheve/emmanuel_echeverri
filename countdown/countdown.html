@@ -1,0 +1,28 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Symposium countdown">
+    <title>XR in Chemistry Education - BCCE2022</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="timer.js">
+    </script>
+</head>
+
+<body onload="cdreset()">
+    <header>
+        <h2>XR in Chemistry Education - BCCE2022</h2>
+    </header>
+
+
+    <span id="countdown" class="timer"></span>
+    <div class="buttons">
+        <input type="button" value="Start" onclick="countdown()">
+        <input type="button" value="Stop" onclick="cdpause()">
+        <input type="button" value="Reset" onclick="cdreset(seconds = 300)">
+    </div>
+    
+
+</body>
+
+</html>
+
+<!--This basic HTML document comes from https://stackoverflow.com/questions/30247634/changing-background-color-when-a-countdown-timer-is-activated-->
