@@ -67,7 +67,32 @@ header p{
     font-style: italic; 
  }
 
-/* Featured Projects
+/* Navigation pabel
+-------------------------------------*/
+.navigation{
+    background: #FFC857;
+}
+
+.navigation .panel{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navigation .btn{
+    background: #a56e00;
+    color: #F7FFF7;
+    text-decoration: none;
+    padding: 0.5em 1.0em;
+    border-radius: 1em;
+    display: inline-block;
+}
+.navigation .btn:hover{
+    text-decoration: none;
+    color: #4B3F72;
+}
+
+ /* Featured Projects
 -------------------------------------*/
 .featured_projects{
     background: #4B3F72;
@@ -148,8 +173,8 @@ footer .btn{
     background: #31119b;
     color: #F7FFF7;
     text-decoration: none;
-    padding: 2px 4px;
-    border-radius: 4px;
+    padding: 0.5em 1.0em;
+    border-radius: 1.0em;
     display: inline-block;
 }
 footer .btn:hover{
@@ -173,5 +198,5 @@ a:visited{
 .contact{
     /*list-style-type: none;*/
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
