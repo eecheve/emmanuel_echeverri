@@ -103,8 +103,8 @@ header p{
     background: #1F2041;
     color: #F7FFF7;
     text-decoration: none;
-    padding: 2px 4px;
-    border-radius: 4px;
+    padding: 0.5em 1.0em;
+    border-radius: 1.0em;
     display: inline-block;
 }
 .featured_projects .btn:hover{
