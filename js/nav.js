@@ -1,9 +1,9 @@
 const navContent =`
-  <li><a class="btn" href="../../index.html">Home</a></li>
-  <li><a class="btn" href="../html/portfolio.html">Portfolio</a></li>
-  <li><a class="btn" href="../html/experience.html">Experience</a></li>
-  <li><a class="btn" href="../html/education.html">Education</a></li>
-  <li><a class="btn" href="../html/publications.html">Publications</a></li>
+  <li><a class="btn" href="../index.html">Home</a></li>
+  <li><a class="btn" href="html/portfolio.html">Portfolio</a></li>
+  <li><a class="btn" href="html/experience.html">Experience</a></li>
+  <li><a class="btn" href="html/education.html">Education</a></li>
+  <li><a class="btn" href="html/publications.html">Publications</a></li>
 `;
 
 const mainNav = document.createElement("nav");
