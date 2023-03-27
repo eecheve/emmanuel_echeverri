@@ -1,0 +1,274 @@
+/*
+COLOR PALETTE
+#1F2041 - (31,32,65) - Dark purple
+#4B3F72 - (75,63,114) - Light Purple
+#FFC857 - Gold Yellow
+#119DA4 - Light Blue
+#19647E - Dark Blue
+*/
+
+/* Global Styles
+-------------------------------------*/
+body{
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+}
+
+img{
+    width: 300px;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0.5em 0;
+}
+
+h2{
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'Source Serif Pro', serif;
+}
+
+em{
+    color: #FFC857;
+}
+
+.content_wrap{
+    margin: 0 auto;
+    width: 45em;
+    padding: 2em 0;
+}
+
+h3{
+    margin-bottom: 0;
+}
+h3 + p{
+    font-style: italic;
+}
+h3 ~ p{
+    margin: 0;
+}
+
+/* Profile
+-------------------------------------*/
+header{
+    background: #1F2041;
+    color: #F7FFF7;
+}
+header .content_wrap{
+    padding-top: 1em;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+header h1{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+}
+header p{
+    margin: 0;
+}
+
+.profile{
+    font-style: italic; 
+    text-justify: distribute-all-lines;
+ }
+
+ .about_me{
+    background: #1F2041;
+    color: #F7FFF7;
+ }
+ .about_me .content_wrap{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+ }
+ .about_me_text p{
+    text-align: justify;
+    padding-top: 0.5em;
+ }
+ .about_me_picture img{
+    /* height: 20em; */
+    width: 10em;
+    padding-left: 1em;
+    padding-top: 0.5em;
+ }
+
+ .further_details{
+    /* margin: 0 auto; */
+    /* width: 45em; */
+    /* padding: 0.5em 0; */
+    background-color: #a56e00;
+    color: #FFFFFF;
+    
+ }
+ .further_details .btn{
+    appearance: none;
+    background-color: #ebcf31;
+    border: 0.3em solid rgba(27, 31, 35, 0.15);
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    color: #072b4e;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+ }
+ .further_details .btn:hover{
+    background-color: #ebcf31be;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #1f83e7;
+ }
+
+/* Navigation pabel
+-------------------------------------*/
+.nav_panel{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.navigation{
+    background: #FFC857;
+    margin: 0 auto;
+    padding: 0.2em 5em;
+}
+
+.navigation .panel{
+    padding: 0.5em;
+    margin: auto;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navigation .btn{
+    background: #a56e00;
+    color: #F7FFF7;
+    text-decoration: none;
+    padding: 0.5em 1.0em;
+    border-radius: 1em;
+    display: inline-block;
+}
+.navigation .btn:hover{
+    text-decoration: none;
+    color: #fcae1d;
+}
+
+ /* Footer
+-------------------------------------*/
+footer{
+    margin: 0 auto;
+    padding: 1em 1em;
+    background-color: #072b4e;
+}
+.contact_info{
+    color: #EAFDF8;
+}
+.contact_info .footer_panel{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+}
+.contact_info .contact_item{
+    text-decoration: none;
+    display: inline-block;
+}
+.contact_info a:link{
+    color: #E7BE6E;
+}
+.contact_info a:hover{
+    color: #f3dcad;
+}
+.contact_info a:visited{
+    color: #E7BE6E;
+}
+ /* Featured Projects
+-------------------------------------*/
+.featured_projects{
+    background: #4B3F72;
+    color: #F7FFF7;
+}
+
+.featured_projects .btn{
+    background: #1F2041;
+    color: #F7FFF7;
+    text-decoration: none;
+    padding: 0.5em 1.0em;
+    border-radius: 1.0em;
+    display: inline-block;
+}
+.featured_projects .btn:hover{
+    background: rgba(31, 32, 65, 80%);
+}
+.featured_projects p{
+    margin: 0;
+}
+
+.project_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px dashed #F7FFF7;
+}
+
+.project_item h3{
+    margin-top: 0;
+}
+
+/* Work Experience
+-------------------------------------*/
+.work_experience{
+    background: #FFC857;
+}
+.work_experience p{
+    margin: 0;
+}
+.job_item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* Education
+-------------------------------------*/
+.education{
+    background: #EAFDF8;
+}
+
+.education p{
+    margin: 0;
+}
+
+.school_item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 10px;
+}
+
+/* Publications
+-------------------------------------*/
+.publications .btn{
+    color: #1F2041;
+}
+.publications .btn:hover{
+    text-decoration: none;
+    color: #4B3F72;
+}
+
+/* Links
+--------------------------------------*/
+a:link{
+    color: #FFECC6;
+}
+
+a:hover{
+    color: #FFAE77;
+}
+
+a:visited{
+    color: #E7BE6E;
+}
