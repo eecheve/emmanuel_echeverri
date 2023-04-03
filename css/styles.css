@@ -1,12 +1,3 @@
-/*
-COLOR PALETTE
-#1F2041 - (31,32,65) - Dark purple
-#4B3F72 - (75,63,114) - Light Purple
-#FFC857 - Gold Yellow
-#119DA4 - Light Blue
-#19647E - Dark Blue
-*/
-
 /* Global Styles
 -------------------------------------*/
 body{
@@ -257,6 +248,10 @@ footer{
 .publications .btn:hover{
     text-decoration: none;
     color: #4B3F72;
+}
+.conferences .level2 li{
+    font-size: 0.9em;
+    color: #252525;
 }
 
 /* Links
